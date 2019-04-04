@@ -20,12 +20,12 @@
 - 英特尔无线网卡
   - 购买USB网卡或者支持的内置网卡  
 ## 哪些能够正常工作  
--显卡
- -注入ID：3E9b0000驱动。
--有线网卡
- -使用[RealtekRTL8100](EFI/CLOVER/kexts/Other/RealtekRTL8100.kext)驱动
--无线网卡
- -自带的无线网卡无解，已经更换为DW1560.
+- 显卡
+  -注入ID：3E9b0000驱动。
+- 有线网卡
+  -使用[RealtekRTL8100](EFI/CLOVER/kexts/Other/RealtekRTL8100.kext)驱动
+- 无线网卡
+  -自带的无线网卡无解，已经更换为DW1560.
 
 ### 我的触控板升级系统后无法使用。
 
