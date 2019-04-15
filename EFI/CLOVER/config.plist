@@ -87,16 +87,20 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>RTC  to XRTC</string>
+					<string>_STA  to XSTA</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>
-					UlRDXw==
+					X1NUQQ==
 					</data>
 					<key>Replace</key>
 					<data>
-					WFJUQw==
+					WFNUQQ==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					UlRDXw==
 					</data>
 				</dict>
 			</array>
@@ -133,14 +137,14 @@
 	</dict>
 	<key>Boot</key>
 	<dict>
-		<key>Arguments</key>
-		<string>dart=0 keepsyms=1 -disablegfxfirmware abm_firstpolldelay=16000</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
-		<string>LastBootedVolume</string>
+		<string>macOS</string>
 		<key>DisableCloverHotkeys</key>
 		<false/>
+		<key>Fast</key>
+		<true/>
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>NeverHibernate</key>
@@ -151,8 +155,6 @@
 		<false/>
 		<key>Secure</key>
 		<false/>
-		<key>Timeout</key>
-		<integer>5</integer>
 		<key>XMPDetection</key>
 		<false/>
 	</dict>
@@ -167,13 +169,22 @@
 		<dict>
 			<key>AFGLowPowerState</key>
 			<false/>
-			<key>Inject</key>
-			<integer>15</integer>
 			<key>ResetHDA</key>
 			<false/>
 		</dict>
 		<key>Properties</key>
 		<dict>
+			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
+			<dict>
+				<key>device-id</key>
+				<data>
+				cKEAAA==
+				</data>
+				<key>layout-id</key>
+				<data>
+				NgAAAA==
+				</data>
+			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
@@ -184,13 +195,17 @@
 				<data>
 				mz4AAA==
 				</data>
-				<key>disable-external-gpu</key>
-				<data>
-				AQAAAA==
-				</data>
 				<key>enable-hdmi20</key>
 				<data>
 				AQAAAA==
+				</data>
+				<key>framebuffer-con0-enable</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>framebuffer-con0-pipe</key>
+				<data>
+				EgAAAA==
 				</data>
 				<key>framebuffer-con1-busid</key>
 				<data>
@@ -216,28 +231,14 @@
 				<data>
 				EgAAAA==
 				</data>
-				<key>framebuffer-con2-type</key>
-				<data>
-				AAgAAA==
-				</data>
-				<key>framebuffer-fbmem</key>
-				<data>
-				AACQAA==
-				</data>
 				<key>framebuffer-patch-enable</key>
 				<data>
 				AQAAAA==
-				</data>
-				<key>framebuffer-stolenmem</key>
-				<data>
-				AAAwAQ==
 				</data>
 				<key>framebuffer-unifiedmem</key>
 				<data>
 				AAAAgA==
 				</data>
-				<key>hda-gfx</key>
-				<string>onboard-1</string>
 			</dict>
 		</dict>
 		<key>SetIntelBacklight</key>
@@ -298,19 +299,8 @@
 	<dict>
 		<key>EDID</key>
 		<dict>
-			<key>Custom</key>
-			<data>
-			AP///////wANrtQUAAAAADAbAQSVHxF4Aihll1lUjiceUFQAAAAB
-			AQEBAQEBAQEBAQEBAQEBtDuASnE4NEBQPGgANa0QAAAawi+ASnE4
-			NEBQPGgANa0QAAAaAAAA/gAxODlZSoAxNDBIQ0EKAAAAAAAAQTGW
-			ABAAAAoBCiAgADM=
-			</data>
 			<key>Inject</key>
-			<true/>
-			<key>ProductID</key>
-			<string>5332</string>
-			<key>VendorID</key>
-			<string>0x3502</string>
+			<false/>
 		</dict>
 		<key>Inject</key>
 		<dict>
@@ -330,63 +320,8 @@
 		<true/>
 		<key>KernelPm</key>
 		<true/>
-		<key>KernelToPatch</key>
-		<array>
-			<dict>
-				<key>Comment</key>
-				<string>Disable panic kext logging on 10.14 Release kernel (c) vit9696</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				igKEwHRC
-				</data>
-				<key>MatchOS</key>
-				<string>10.14.x</string>
-				<key>Replace</key>
-				<data>
-				igKEwOtC
-				</data>
-			</dict>
-		</array>
 		<key>KextsToPatch</key>
 		<array>
-			<dict>
-				<key>Comment</key>
-				<string>External icons patch</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				RXh0ZXJuYWw=
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>Name</key>
-				<string>AppleAHCIPort</string>
-				<key>Replace</key>
-				<data>
-				SW50ZXJuYWw=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Enable TRIM for SSD</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				AEFQUExFIFNTRAA=
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>Name</key>
-				<string>com.apple.iokit.IOAHCIBlockStorage</string>
-				<key>Replace</key>
-				<data>
-				AAAAAAAAAAAAAAA=
-				</data>
-			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar</string>
@@ -423,22 +358,6 @@
 				SU9LaXM=
 				</data>
 			</dict>
-			<dict>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				dkZI/wUfGwk=
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>Name</key>
-				<string>com.apple.driver.AppleIntelCFLGraphicsFramebuffer</string>
-				<key>Replace</key>
-				<data>
-				60ZI/wUfGwk=
-				</data>
-			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
@@ -461,7 +380,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C028473004NJH4RUE</string>
+		<string>C02809130GUJH4RCB</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -473,7 +392,7 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>220.240.2.0.0</string>
+		<string>220.250.320.0.0</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
@@ -491,9 +410,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro15,2</string>
 		<key>SerialNumber</key>
-		<string>C02XQ08BJHCD</string>
+		<string>C02WC058JHCD</string>
 		<key>SmUUID</key>
-		<string>9F25DB84-4707-41BB-B90C-F2CA70D8DB3D</string>
+		<string>203A4206-5DED-4C9F-8F70-C0A69433E149</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
