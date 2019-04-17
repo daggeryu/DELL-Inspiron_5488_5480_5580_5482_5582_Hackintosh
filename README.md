@@ -36,7 +36,7 @@ DELL-Vostro_5481_5581。
 ## 安装中遇到的问题
 1：无法抹盘，或者安装失败，报错“-110”。全盘抹掉一次即可。有部分基友遇到。  
 2：使用中突然卡死，什么都不能操作。或者睡眠唤醒黑屏。可能是bios设置问题关闭iInter@Software Cuard Extensions下的第一个选项，关闭后win下指纹不可用，如果没这些问题可以不关闭。  
-3：安装原版完成后，提示未能完成安装。不用管他直接点重启即可（Restart），其实已经安装成功。目前原因未知，看群里b部分戴尔基友有遇到此问题。  
+3：安装原版完成后，提示未能完成安装。不用管他直接点重启即可（Restart），其实已经安装成功。目前原因未知，看群里部分戴尔机友有遇到此问题。  
 3：安装好后画无法使用触摸板，或者升级后触控板无法使用。  
 你需要在每次更新系统后重建缓存。运行 `Kext Utility.app` 或者在 `终端.app` 输入 `sudo kextcache -i /`，然后重启。  
 4；耳机插上没有声音。请打开ALCPlugFix执行[install双击自动安装.command](https://github.com/daggeryu/DELL-inspiron-5488/blob/master/ALCPlugFix/install双击自动安装.command)
