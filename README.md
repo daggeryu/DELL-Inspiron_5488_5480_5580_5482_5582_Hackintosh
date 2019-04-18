@@ -40,7 +40,7 @@ DELL-Vostro_5481_5581。
 3：安装好后画无法使用触摸板，或者升级后触控板无法使用。  
 你需要在每次更新系统后重建缓存。运行 `Kext Utility.app` 或者在 `终端.app` 输入 `sudo kextcache -i /`，然后重启。  
 4；耳机插上没有声音。请打开ALCPlugFix执行[install双击自动安装.command](https://github.com/daggeryu/DELL-inspiron-5488/blob/master/ALCPlugFix/install双击自动安装.command)
-
-
+## 原装卡更换图解
+详见[network_card](https://github.com/daggeryu/DELL-inspiron-5488/blob/master/network_card.md)
 ## 更新日志
 详见[Update_log](https://github.com/daggeryu/DELL-inspiron-5488/blob/master/Update_log.md)
