@@ -47,7 +47,7 @@ DELL-Vostro_5481_5581。
 ## 致谢
 
 - [RehabMan](https://github.com/RehabMan) 提供的   [VoodooPS2Controller](https://github.com/RehabMan/OS-X-Voodoo-PS2-Controller)等驱动。    
-- [vit9696](https://github.com/vit9696) 提供的 [Lilu](https://github.com/acidanthera/Lilu) 。     [AppleALC](https://github.com/acidanthera/AppleALC)   。   [WhateverGreen](https://github.com/acidanthera/WhateverGreen)。     
+- [vit9696](https://github.com/vit9696) 提供的 [Lilu](https://github.com/acidanthera/Lilu) ，     [AppleALC](https://github.com/acidanthera/AppleALC)   ，   [WhateverGreen](https://github.com/acidanthera/WhateverGreen)。     
 - [Alexandred](https://github.com/alexandred)。   及其开发团队提供的[VoodooI2C](https://github.com/alexandred/VoodooI2C) 驱动。  
 - [冰水大佬](https://github.com/xzhih) 帮助驱动触摸板及修正亮度快捷键。
 - **@宪武** 大神指导fn+insert睡眠修正。  
