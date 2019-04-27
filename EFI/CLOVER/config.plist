@@ -18,6 +18,8 @@
 				<false/>
 				<key>FixDarwin7</key>
 				<false/>
+				<key>FixFirewire</key>
+				<true/>
 				<key>FixHDA</key>
 				<false/>
 				<key>FixHPET</key>
@@ -87,7 +89,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>_STA  to XSTA</string>
+					<string>_STA  to XSTA in RTC</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -101,6 +103,94 @@
 					<key>TgtBridge</key>
 					<data>
 					UlRDXw==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>ACPI0008:_STA to XSTA</string>
+					<key>Disabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					X1NUQQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFNUQQ==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					QUxTRA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>EV5 renamed XEV5</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					RVY1XwI=
+					</data>
+					<key>Replace</key>
+					<data>
+					WEVWNQI=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>LID0 renamed LID</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					TElEMA==
+					</data>
+					<key>Replace</key>
+					<data>
+					TElEXw==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>_PTS to ZPTS(1,N)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1BUUwE=
+					</data>
+					<key>Replace</key>
+					<data>
+					WlBUUwE=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>_WAK to ZWAK(1,N)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1dBSwE=
+					</data>
+					<key>Replace</key>
+					<data>
+					WldBSwE=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>_LID to XLID</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X0xJRAA=
+					</data>
+					<key>Replace</key>
+					<data>
+					WExJRAA=
 					</data>
 				</dict>
 			</array>
@@ -281,6 +371,8 @@
 			<key>Speed</key>
 			<integer>8</integer>
 		</dict>
+		<key>PlayAsync</key>
+		<false/>
 		<key>Scan</key>
 		<dict>
 			<key>Entries</key>
@@ -380,7 +472,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02809130GUJH4RCB</string>
+		<string>C02753700GUJH4RJC</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -410,9 +502,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro15,2</string>
 		<key>SerialNumber</key>
-		<string>C02WC058JHCD</string>
+		<string>C02W12YZJHCD</string>
 		<key>SmUUID</key>
-		<string>203A4206-5DED-4C9F-8F70-C0A69433E149</string>
+		<string>CDB1BC2B-B9B0-4A3A-A72E-50148C28D060</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
