@@ -33,7 +33,8 @@ DELL-Vostro_5481_5581。
 10：睡眠正常。  
 11：变频正常。  
 12：支持原生亮度快捷键。  
-13:支持fn+insert睡眠（外接显示器时，此组合键关闭内置显示器，无外接显示器按此组合键就睡眠）。  
+13：支持fn+insert睡眠（外接显示器时，此组合键关闭内置显示器，无外接显示器按此组合键就睡眠）。  
+14：触摸板手势支持拖移锁定。
 ## 安装中遇到的问题
 1：无法抹盘，或者安装失败，报错“-110”。全盘抹掉一次即可。有部分机友遇到。  
 2：使用中突然卡死，什么都不能操作。或者睡眠唤醒黑屏。可能是bios设置问题关闭iInter@Software Cuard Extensions下的第一个选项，关闭后win下指纹不可用，如果没这些问题可以不关闭。  
@@ -49,5 +50,6 @@ DELL-Vostro_5481_5581。
 - [RehabMan](https://github.com/RehabMan) 提供的   [VoodooPS2Controller](https://github.com/RehabMan/OS-X-Voodoo-PS2-Controller)等驱动。    
 - [vit9696](https://github.com/vit9696) 提供的 [Lilu](https://github.com/acidanthera/Lilu) ，     [AppleALC](https://github.com/acidanthera/AppleALC)   ，   [WhateverGreen](https://github.com/acidanthera/WhateverGreen)。     
 - [Alexandred](https://github.com/alexandred)及其开发团队提供的[VoodooI2C](https://github.com/alexandred/VoodooI2C) 驱动。  
-- [冰水大佬](https://github.com/xzhih) 帮助驱动触摸板及修正亮度快捷键。
+- [冰水大佬](https://github.com/xzhih) 帮助驱动触摸板及修正亮度快捷键（轮询）。
+- [Bat.bat](https://github.com/williambj1) 帮助驱动触摸板（中断）。
 - **@宪武** 大神指导fn+insert睡眠修正。  
