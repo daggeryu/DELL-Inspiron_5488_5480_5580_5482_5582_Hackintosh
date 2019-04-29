@@ -13,17 +13,17 @@
 			<key>Fixes</key>
 			<dict>
 				<key>AddDTGP</key>
-				<true/>
+				<false/>
 				<key>AddPNLF</key>
 				<false/>
 				<key>FixDarwin7</key>
 				<false/>
 				<key>FixFirewire</key>
-				<true/>
+				<false/>
 				<key>FixHDA</key>
 				<false/>
 				<key>FixHPET</key>
-				<true/>
+				<false/>
 				<key>FixRTC</key>
 				<false/>
 				<key>FixShutdown</key>
@@ -75,20 +75,6 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change _OSI to XOSI (OS)</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X09TSQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WE9TSQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>_STA  to XSTA in RTC</string>
 					<key>Disabled</key>
 					<false/>
@@ -109,7 +95,7 @@
 					<key>Comment</key>
 					<string>ACPI0008:_STA to XSTA</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					X1NUQQ==
@@ -125,21 +111,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>EV5 renamed XEV5</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					RVY1XwI=
-					</data>
-					<key>Replace</key>
-					<data>
-					WEVWNQI=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>LID0 renamed LID</string>
+					<string>S-LID0 renamed LID</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -153,7 +125,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>_PTS to ZPTS(1,N)</string>
+					<string>S-_PTS to ZPTS(1,N)</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -167,7 +139,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>_WAK to ZWAK(1,N)</string>
+					<string>S-_WAK to ZWAK(1,N)</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -181,7 +153,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>_LID to XLID</string>
+					<string>S-_LID to XLID</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -191,6 +163,66 @@
 					<key>Replace</key>
 					<data>
 					WExJRAA=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>S- BTNV renamed XTNV</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					QlROVgI=
+					</data>
+					<key>Replace</key>
+					<data>
+					WFROVgI=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change _OSI to XOSI (OS)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X09TSQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WE9TSQ==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change _STA to XSTA in GPI0 </string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1NUQQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFNUQQ==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					R1BJMA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change TPDM == Zero to TPDM != Zero in TPD0</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					QkZJoB6TVFBETQCk
+					</data>
+					<key>Replace</key>
+					<data>
+					QkZJoB+Sk1RQRE0ApA==
 					</data>
 				</dict>
 			</array>
@@ -217,16 +249,18 @@
 			<key>Generate</key>
 			<dict>
 				<key>CStates</key>
-				<true/>
+				<false/>
 				<key>PStates</key>
-				<true/>
+				<false/>
 				<key>PluginType</key>
-				<true/>
+				<false/>
 			</dict>
 		</dict>
 	</dict>
 	<key>Boot</key>
 	<dict>
+		<key>Arguments</key>
+		<string>-v</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
@@ -345,7 +379,7 @@
 			<true/>
 		</dict>
 		<key>UseIntelHDMI</key>
-		<true/>
+		<false/>
 	</dict>
 	<key>DisableDrivers</key>
 	<array>
@@ -409,6 +443,8 @@
 		<key>AppleIntelCPUPM</key>
 		<true/>
 		<key>AppleRTC</key>
+		<false/>
+		<key>DellSMBIOSPatch</key>
 		<true/>
 		<key>KernelPm</key>
 		<true/>
@@ -472,7 +508,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02753700GUJH4RJC</string>
+		<string>C02817104J9JH4R8C</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -502,9 +538,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro15,2</string>
 		<key>SerialNumber</key>
-		<string>C02W12YZJHCD</string>
+		<string>C02WM3ZHJHCD</string>
 		<key>SmUUID</key>
-		<string>CDB1BC2B-B9B0-4A3A-A72E-50148C28D060</string>
+		<string>88CDFCE2-1F36-438A-AFB2-DE4EEC4E2C0E</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
@@ -513,8 +549,6 @@
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>
-		<true/>
-		<key>NvidiaWeb</key>
 		<true/>
 	</dict>
 </dict>
