@@ -75,42 +75,6 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>_STA  to XSTA in RTC</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X1NUQQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WFNUQQ==
-					</data>
-					<key>TgtBridge</key>
-					<data>
-					UlRDXw==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>ACPI0008:_STA to XSTA</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X1NUQQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WFNUQQ==
-					</data>
-					<key>TgtBridge</key>
-					<data>
-					QUxTRA==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>S-LID0 renamed LID</string>
 					<key>Disabled</key>
 					<false/>
@@ -225,6 +189,42 @@
 					QkZJoB+Sk1RQRE0ApA==
 					</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>_STA  to XSTA in RTC</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1NUQQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFNUQQ==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					UlRDXw==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>XSTA  to _STA in SSDTs</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					WFNUQQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					X1NUQQ==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					WFhYWA==
+					</data>
+				</dict>
 			</array>
 			<key>ReuseFFFF</key>
 			<false/>
@@ -265,6 +265,8 @@
 		<string>macOS</string>
 		<key>DisableCloverHotkeys</key>
 		<false/>
+		<key>Fast</key>
+		<true/>
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>NeverHibernate</key>
@@ -275,8 +277,6 @@
 		<false/>
 		<key>Secure</key>
 		<false/>
-		<key>Timeout</key>
-		<integer>-1</integer>
 		<key>XMPDetection</key>
 		<false/>
 	</dict>
@@ -504,7 +504,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02834500J9JH4RAD</string>
+		<string>C028251084NJH4RJC</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -534,9 +534,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro15,2</string>
 		<key>SerialNumber</key>
-		<string>C02X8CYQJHCD</string>
+		<string>C02WW037JHCD</string>
 		<key>SmUUID</key>
-		<string>7F960828-46E6-4267-BE79-9928312B623E</string>
+		<string>6B4F3818-064F-48CB-8EB1-4C8039474BD7</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
