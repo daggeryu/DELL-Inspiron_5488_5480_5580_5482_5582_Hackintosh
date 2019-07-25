@@ -1,5 +1,5 @@
 # 安装10.15卡DVMT解决办法
-## 下载10.15betaEFI.zip 使用EFI目录下的SHEll启动文件启动。
+## 使用EFI目录下的SHEll启动文件启动。
 ### 输入如下命令：
 1：输入 setup_var 0x8E5 0x2 会车；
 2：输入 setup_var 0x8E6 0x3 回车。
