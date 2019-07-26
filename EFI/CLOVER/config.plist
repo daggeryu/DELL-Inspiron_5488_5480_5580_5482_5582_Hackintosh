@@ -512,7 +512,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02806270GUJH4RAD</string>
+		<string>C02844902QXJH4RUE</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -524,7 +524,7 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>220.250.320.0.0</string>
+		<string>220.240.2.0.0</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
@@ -542,9 +542,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro15,2</string>
 		<key>SerialNumber</key>
-		<string>C02W70CEJHCD</string>
+		<string>C02XM4Y4JHCD</string>
 		<key>SmUUID</key>
-		<string>05FD2D98-20B9-42F8-B25E-EF5706B4E1DF</string>
+		<string>551A0F32-AC4E-422E-B7E3-239D60BF97A7</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
