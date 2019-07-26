@@ -44,6 +44,7 @@ DELL-Vostro_5481_5581。
 ## 原装卡更换图解
 详见[network_card](https://github.com/daggeryu/DELL-inspiron-5488/blob/master/network_card.md)
 ## 更新日志
+最后一次更新（2019.07.26）以后不再更新。  
 详见[Update_log](https://github.com/daggeryu/DELL-inspiron-5488/blob/master/Update_log.md)
 ## 致谢
 
