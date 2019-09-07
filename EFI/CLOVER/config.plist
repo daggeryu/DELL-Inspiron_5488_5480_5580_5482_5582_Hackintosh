@@ -259,6 +259,8 @@
 	</dict>
 	<key>Boot</key>
 	<dict>
+		<key>Arguments</key>
+		<string>-v debug=0x100</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
@@ -276,7 +278,7 @@
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>-1</integer>
+		<integer>5</integer>
 		<key>XMPDetection</key>
 		<false/>
 	</dict>
@@ -298,10 +300,6 @@
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
-				<key>device-id</key>
-				<data>
-				cKEAAA==
-				</data>
 				<key>layout-id</key>
 				<integer>54</integer>
 			</dict>
@@ -312,61 +310,47 @@
 				AACbPg==
 				</data>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,2,0</string>
 				<key>device-id</key>
 				<data>
 				mz4AAA==
 				</data>
 				<key>device_type</key>
-				<string>Vedio compatible controller</string>
+				<string>VGA compatible controller</string>
+				<key>disable-external-gpu</key>
+				<data>
+				AQAAAA==
+				</data>
 				<key>enable-hdmi20</key>
 				<data>
 				AQAAAA==
 				</data>
-				<key>framebuffer-con0-enable</key>
+				<key>framebuffer-con1-alldata</key>
 				<data>
-				AQAAAA==
-				</data>
-				<key>framebuffer-con0-pipe</key>
-				<data>
-				EgAAAA==
-				</data>
-				<key>framebuffer-con1-busid</key>
-				<data>
-				AQAAAA==
+				AQEJAAAIAACHAQAA
 				</data>
 				<key>framebuffer-con1-enable</key>
 				<data>
 				AQAAAA==
 				</data>
-				<key>framebuffer-con1-pipe</key>
+				<key>framebuffer-fbmem</key>
 				<data>
-				EgAAAA==
-				</data>
-				<key>framebuffer-con1-type</key>
-				<data>
-				AAgAAA==
-				</data>
-				<key>framebuffer-con2-enable</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>framebuffer-con2-pipe</key>
-				<data>
-				EgAAAA==
-				</data>
-				<key>framebuffer-con2-type</key>
-				<data>
-				AAgAAA==
+				AACQAA==
 				</data>
 				<key>framebuffer-patch-enable</key>
 				<data>
 				AQAAAA==
 				</data>
-				<key>hda-gfx</key>
-				<string>onboard-1</string>
+				<key>framebuffer-stolenmem</key>
+				<data>
+				AAAwAQ==
+				</data>
+				<key>framebuffer-unifiedmem</key>
+				<data>
+				AAAAgA==
+				</data>
 				<key>model</key>
-				<string>Intel UHD Graphics 620 </string>
+				<string>Intel UHD Graphics 620 (Mobile)</string>
 			</dict>
 		</dict>
 		<key>SetIntelBacklight</key>
@@ -391,26 +375,43 @@
 	</array>
 	<key>GUI</key>
 	<dict>
+		<key>#ScreenResolution</key>
+		<string>1920x1080</string>
+		<key>Custom</key>
+		<dict>
+			<key>Entries</key>
+			<array>
+				<dict>
+					<key>Disabled</key>
+					<false/>
+					<key>FullTitle</key>
+					<string>UEFI internal</string>
+					<key>Hidden</key>
+					<string>Always</string>
+					<key>Ignore</key>
+					<false/>
+					<key>NoCaches</key>
+					<false/>
+					<key>Type</key>
+					<string>Other</string>
+				</dict>
+			</array>
+		</dict>
 		<key>Hide</key>
 		<array>
 			<string>Preboot</string>
 			<string>Recovery</string>
+			<string>Windows</string>
 		</array>
-		<key>Language</key>
-		<string>zh_CN:0</string>
+		<key>KbdPrevLang</key>
+		<true/>
 		<key>Mouse</key>
 		<dict>
-			<key>DoubleClick</key>
-			<integer>500</integer>
 			<key>Enabled</key>
 			<false/>
-			<key>Mirror</key>
-			<false/>
-			<key>Speed</key>
-			<integer>8</integer>
 		</dict>
 		<key>PlayAsync</key>
-		<false/>
+		<true/>
 		<key>Scan</key>
 		<dict>
 			<key>Entries</key>
@@ -502,17 +503,17 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>09/17/2018</string>
+		<string>07/26/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP152.88Z.F000.B00.1809171524</string>
+		<string>MBP152.88Z.F000.B00.1907261958</string>
 		<key>Board-ID</key>
 		<string>Mac-827FB448E656EC26</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02844902QXJH4RUE</string>
+		<string>C028381004NJH4RJA</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -524,7 +525,7 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>220.240.2.0.0</string>
+		<string>1037.0.39.151.1</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
@@ -538,13 +539,13 @@
 		<key>Mobile</key>
 		<true/>
 		<key>PlatformFeature</key>
-		<string>0x1A</string>
+		<string>0x02</string>
 		<key>ProductName</key>
 		<string>MacBookPro15,2</string>
 		<key>SerialNumber</key>
-		<string>C02XM4Y4JHCD</string>
+		<string>C02XF5ZCJHCD</string>
 		<key>SmUUID</key>
-		<string>551A0F32-AC4E-422E-B7E3-239D60BF97A7</string>
+		<string>AB541B7F-1F18-4D26-B70E-F8B790AFE290</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>

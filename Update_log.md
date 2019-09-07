@@ -27,3 +27,6 @@
 重新定制usb，可使用读卡器（不定制也能使用，之前不知道读卡器走的usb通道，没有测试设备，所以屏蔽了）
 ## v1.9 (2019年7月23号)
 更新clover支持10.14.6.  
+## v2.0 (2019年9月7号)  
+参照Lenovo-Air13-IWL-Hackintosh移除FakePCIID_Intel_HDMI_Audio.kext和 FakePCIID.kext。  
+参照Lenovo-Air13-IWL-Hackintosh整合CPUFriendProvider.kext , FakePCIID_Intel_HDMI_Audio.kext , XHCI-unsupported.kext , USBPorts.kext 合并为Dell-5488.kext。  
