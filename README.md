@@ -55,10 +55,10 @@ DELL-Vostro_5481_5581。
 - **@宪武** 大神指导fn+insert睡眠修正。  
 ## QQ交流群
 一个人太累，创建个QQ群吧，大家一起讨论和寻找以后的各种问题的解决办法吧
-![qq](https://github.com/daggeryu/DELL-inspiron-5488/blob/master/images/qrcode.jpg "qrcode.jpg")
+![qq](https://github.com/daggeryu/DELL-inspiron-5488/blob/master/images/qrcode.jpg)
 ## 觉得资源还不错的可以打赏一下  
 
-|  微信 | 支付宝 | 
-|:-----|-----:|
+| 微信 | 支付宝 | 
+|:-----:|:-----:|
 |![wechatpay_160](https://github.com/daggeryu/DELL-inspiron-5488/blob/master/images/wechatpay.png)   |  ![alipay_160](https://github.com/daggeryu/DELL-inspiron-5488/blob/master/images/alipay.png)  | 
 
