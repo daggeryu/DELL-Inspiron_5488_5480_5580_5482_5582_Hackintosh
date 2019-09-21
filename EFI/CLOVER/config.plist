@@ -179,7 +179,7 @@
 					<key>Comment</key>
 					<string>change TPDM == Zero to TPDM != Zero in TPD0</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					QkZJoB6TVFBETQCk
@@ -463,6 +463,10 @@
 		<false/>
 		<key>DellSMBIOSPatch</key>
 		<true/>
+		<key>ForceKextsToLoad</key>
+		<array>
+			<string>\System\Library\Extensions\IOGraphicsFamily.kext</string>
+		</array>
 		<key>KernelPm</key>
 		<true/>
 		<key>KextsToPatch</key>
@@ -525,7 +529,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02836303QXJH4RUE</string>
+		<string>C02815108QXJH4RJC</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -555,9 +559,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro15,2</string>
 		<key>SerialNumber</key>
-		<string>C02XC0PKJHCD</string>
+		<string>C02WK0GPJHCD</string>
 		<key>SmUUID</key>
-		<string>97A2FC59-EE26-414D-A5AB-22C63F74E9A7</string>
+		<string>EBF64E68-4BD6-4285-B557-725581553F91</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>

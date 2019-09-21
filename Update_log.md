@@ -24,9 +24,13 @@
 1：更新触摸板驱动方式由轮询改为中断。  
 2：手势可支持拖移锁定了。  
 ## v1.8 (2019年5月26号)
-重新定制usb，可使用读卡器（不定制也能使用，之前不知道读卡器走的usb通道，没有测试设备，所以屏蔽了）
+1:重新定制usb，可使用读卡器（不定制也能使用，之前不知道读卡器走的usb通道，没有测试设备，所以屏蔽了）
 ## v1.9 (2019年7月23号)
-更新clover支持10.14.6.  
+1:更新clover支持10.14.6.  
 ## v2.0 (2019年9月7号)  
-参照Lenovo-Air13-IWL-Hackintosh移除FakePCIID_Intel_HDMI_Audio.kext和 FakePCIID.kext。  
-参照Lenovo-Air13-IWL-Hackintosh整合CPUFriendProvider.kext , FakePCIID_Intel_HDMI_Audio.kext , XHCI-unsupported.kext , USBPorts.kext 合并为Dell-5488.kext。  
+1:参照Lenovo-Air13-IWL-Hackintosh移除FakePCIID_Intel_HDMI_Audio.kext和 FakePCIID.kext。  
+2:参照Lenovo-Air13-IWL-Hackintosh整合CPUFriendProvider.kext , FakePCIID_Intel_HDMI_Audio.kext , 3:XHCI-unsupported.kext , USBPorts.kext 合并为Dell-5488.kext。  
+## v2.1 (2019年9月21号)    
+1:更新支持10.15 Beta版(19A558d)。  
+2:更新解决15触摸板不能使用的问题。config->Kernel and Kext Patches-> ForceKextsToload添加“\System\Library\Extensions\IOGraphicsFamily.kext”   
+3:暂时将VoodooPS2Controller.kext替换为ApplePS2SmartTouchPad.kext解决触摸板驱动后需要开—V才能开机的问题。  
