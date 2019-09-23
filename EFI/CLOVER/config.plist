@@ -179,7 +179,7 @@
 					<key>Comment</key>
 					<string>change TPDM == Zero to TPDM != Zero in TPD0</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					QkZJoB6TVFBETQCk
