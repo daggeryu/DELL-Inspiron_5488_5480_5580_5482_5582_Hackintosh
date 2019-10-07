@@ -796,6 +796,15 @@
 						AwAAAA==
 						</data>
 					</dict>
+					<key>HS04</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>9</integer>
+						<key>port</key>
+						<data>
+						BAAAAA==
+						</data>
+					</dict>
 					<key>HS06</key>
 					<dict>
 						<key>UsbConnector</key>
@@ -808,7 +817,7 @@
 					<key>HS07</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>0</integer>
 						<key>port</key>
 						<data>
 						BwAAAA==

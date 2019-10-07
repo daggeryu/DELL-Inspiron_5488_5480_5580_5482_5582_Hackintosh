@@ -531,7 +531,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02853501GUJH4RJA</string>
+		<string>C028142004NJH4RAD</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -561,9 +561,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro15,2</string>
 		<key>SerialNumber</key>
-		<string>C02XX0QUJHCD</string>
+		<string>C02WJ4Z8JHCD</string>
 		<key>SmUUID</key>
-		<string>D8ECD289-60BD-407D-A7F4-0F7D48F91EDE</string>
+		<string>67963C4F-A306-4EA1-9BD8-E1E6856B2B4D</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
