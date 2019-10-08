@@ -317,10 +317,6 @@
 				</data>
 				<key>device_type</key>
 				<string>Vedio compatible controller</string>
-				<key>disable-external-gpu</key>
-				<data>
-				AQAAAA==
-				</data>
 				<key>enable-hdmi20</key>
 				<data>
 				AQAAAA==
