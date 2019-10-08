@@ -317,6 +317,10 @@
 				</data>
 				<key>device_type</key>
 				<string>Vedio compatible controller</string>
+				<key>disable-external-gpu</key>
+				<data>
+				AQAAAA==
+				</data>
 				<key>enable-hdmi20</key>
 				<data>
 				AQAAAA==
@@ -531,7 +535,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C028142004NJH4RAD</string>
+		<string>C02832101CDJH4RJC</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -561,9 +565,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro15,2</string>
 		<key>SerialNumber</key>
-		<string>C02WJ4Z8JHCD</string>
+		<string>C02X60ENJHCD</string>
 		<key>SmUUID</key>
-		<string>67963C4F-A306-4EA1-9BD8-E1E6856B2B4D</string>
+		<string>E9DE42CA-42AD-4DF6-8966-5E2430259230</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
