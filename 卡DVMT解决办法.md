@@ -1,5 +1,5 @@
 # 安装卡DVMT解决办法
-## 使用EFI目录下的SHEll启动文件启动。
+## 在四叶草界面选择tool工具的SHEll。
 ### 输入如下命令：
 1：输入 setup_var 0x8E5 0x2 会车；
 2：输入 setup_var 0x8E6 0x3 回车。

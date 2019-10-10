@@ -225,6 +225,20 @@
 					WFhYWA==
 					</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>PNP0C09 to PNPFFFF</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					QdAMCQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					QdD//w==
+					</data>
+				</dict>
 			</array>
 			<key>ReuseFFFF</key>
 			<false/>
@@ -300,6 +314,10 @@
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
+				<key>device-id</key>
+				<data>
+				cKEAAA==
+				</data>
 				<key>layout-id</key>
 				<integer>54</integer>
 			</dict>
@@ -435,7 +453,7 @@
 			<key>Linux</key>
 			<false/>
 			<key>Tool</key>
-			<false/>
+			<true/>
 		</dict>
 		<key>Theme</key>
 		<string>Catalina</string>
