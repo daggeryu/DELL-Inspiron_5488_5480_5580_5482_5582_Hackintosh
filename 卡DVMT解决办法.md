@@ -1,5 +1,7 @@
 # 安装卡DVMT解决办法
-## 在四叶草界面选择tool工具的SHEll。
+## 添加启动项选择启动文件为EFI/Clover/Shell/bootx64.efi的启动项。  
+##
+开机按F12选择shell的启动项进入shell。  
 ### 输入如下命令：
 1：输入 setup_var 0x8E5 0x2 会车；
 2：输入 setup_var 0x8E6 0x3 回车。

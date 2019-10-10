@@ -453,7 +453,7 @@
 			<key>Linux</key>
 			<false/>
 			<key>Tool</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>Theme</key>
 		<string>Catalina</string>
