@@ -57,9 +57,7 @@ DELL-Vostro_5481_5581。
 
 | paypal                                                       | 微信                                                       | 支付宝                                               |
 | ------------------------------------------------------------ | ---------------------------------------------------------- | ---------------------------------------------------- |
-| [![paypal](https://github.com/daggeryu/DELL-inspiron-5488/blob/master/images/paypal.png)](https://paypal.me/daggeryu?locale.x=zh_XC) |
-![wechatpay_160](https://github.com/daggeryu/DELL-inspiron-5488/blob/master/images/wechatpay.png)   |  
-![alipay_160](https://github.com/daggeryu/DELL-inspiron-5488/blob/master/images/alipay.png)  | 
+| [![paypal](https://github.com/daggeryu/DELL-inspiron-5488/blob/master/images/paypal.png)](https://paypal.me/daggeryu?locale.x=zh_XC) | ![wechatpay_160](https://github.com/daggeryu/DELL-inspiron-5488/blob/master/images/wechatpay.png)   | ![alipay_160](https://github.com/daggeryu/DELL-inspiron-5488/blob/master/images/alipay.png)  | 
 
 ## QQ交流群
 一个人太累，创建个QQ群吧，大家一起讨论和寻找以后的各种问题的解决办法吧。  
