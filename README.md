@@ -57,7 +57,7 @@ DELL-Vostro_5481_5581。
 
 | Paypal | 微信 | 支付宝 | 
 |:-----:|:-----:|:-----:|
-| [![paypal_daliansky](http://7.daliansky.net/paypal_daliansky.png)](https://www.paypal.me/daliansky) |
+| [![paypal_daliansky](https://github.com/daggeryu/DELL-inspiron-5488/blob/master/images/paypal.png)](https://paypal.me/daggeryu?locale.x=zh_XC) |
 ![wechatpay_160](https://github.com/daggeryu/DELL-inspiron-5488/blob/master/images/wechatpay.png)   |  
 ![alipay_160](https://github.com/daggeryu/DELL-inspiron-5488/blob/master/images/alipay.png)  | 
 
