@@ -259,8 +259,6 @@
 	</dict>
 	<key>Boot</key>
 	<dict>
-		<key>Arguments</key>
-		<string>-v</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
@@ -521,7 +519,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02852306GUJH4RJA</string>
+		<string>C02823500J9JH4RCB</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -551,9 +549,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro15,2</string>
 		<key>SerialNumber</key>
-		<string>C02XWYZRJHCD</string>
+		<string>C02WT09EJHCD</string>
 		<key>SmUUID</key>
-		<string>45AF66A7-1A47-4165-8B5D-B6DAA9756B9B</string>
+		<string>12B2359E-BF0C-4432-966E-19280B99CC50</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
