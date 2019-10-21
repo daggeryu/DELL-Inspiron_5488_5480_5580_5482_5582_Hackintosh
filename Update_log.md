@@ -34,3 +34,7 @@
 1:更新支持10.15 Beta版(19A558d)。  
 2:更新解决15触摸板不能使用的问题。config->Kernel and Kext Patches-> ForceKextsToload添加“\System\Library\Extensions\IOGraphicsFamily.kext”   
 3:暂时将VoodooPS2Controller.kext替换为ApplePS2SmartTouchPad.kext解决触摸板驱动后需要开—V才能开机的问题。  
+## v2.2 (2019年10月21号)   
+1:修复需要开—v才能开机的问题。  
+2:修复部分基友使用，耳机的问题。  
+
