@@ -54,7 +54,7 @@ DELL-Vostro_5481_5581。
 - [冰水大佬](https://github.com/xzhih) 帮助驱动触摸板及修正亮度快捷键（轮询）。
 - [Bat.bat](https://github.com/williambj1) 帮助驱动触摸板（中断）。
 - **@宪武** 大神指导fn+insert睡眠修正。  
- **Houdini** OC引导由此群友贡献。 
+- **Houdini** OC引导由此群友贡献。 
 ## 觉得资源还不错的可以打赏一下  
 
 | paypal                                                       | 微信                                                       | 支付宝                                               |
