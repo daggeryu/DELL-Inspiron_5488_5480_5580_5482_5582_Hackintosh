@@ -41,6 +41,7 @@ DELL-Vostro_5481_5581。
 6：快捷关闭触摸板，打开设置-辅助功能-鼠标与触摸板：启用鼠标键，点一下后面的选项勾选“按下Option键五次来开关鼠标键”。后就可以通过按五次Option键快捷关闭触摸板了。  
 7：耳机插上没有声音。请打开ALCPlugFix执行[install双击自动安装.command](https://github.com/daggeryu/DELL-inspiron-5488/blob/master/ALCPlugFix/install双击自动安装.command)（10.15请先解锁sle权限在执行。）  
 8:由于macOS 10.15 锁住了S/L/E的修改权限，因此在修改kext前要使用终端先解锁S/L/E权限，打开终端输入一下命令：sudo mount -uw /& killall Finder  
+9：使用OC引导请使用SHEll解锁CFG。  
 ## 原装卡更换图解
 详见[network_card](https://github.com/daggeryu/DELL-inspiron-5488/blob/master/network_card.md)
 ## 更新日志
@@ -53,7 +54,7 @@ DELL-Vostro_5481_5581。
 - [冰水大佬](https://github.com/xzhih) 帮助驱动触摸板及修正亮度快捷键（轮询）。
 - [Bat.bat](https://github.com/williambj1) 帮助驱动触摸板（中断）。
 - **@宪武** 大神指导fn+insert睡眠修正。  
-
+ **Houdini** OC引导由此群友贡献。 
 ## 觉得资源还不错的可以打赏一下  
 
 | paypal                                                       | 微信                                                       | 支付宝                                               |
