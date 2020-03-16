@@ -1,5 +1,5 @@
 # 安装卡DVMT解决办法
-## 添加启动项选择启动文件为EFI/Clover/Shell/bootx64.efi的启动项。  
+## 添加启动项选择启动文件为EFI/Clover/Shell/bootx64.efi的启动项,可参考解锁CFG步骤
 ##
 开机按F12选择shell的启动项进入shell。  
 ### 输入如下命令：
