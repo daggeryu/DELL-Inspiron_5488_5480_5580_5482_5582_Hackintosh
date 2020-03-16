@@ -14,7 +14,7 @@
 
 6：最后再输入一遍setup_var 0x5C3 ，检查是否改成了0x00 
 
-成功如图：
+成功如图： 
 ![png](https://github.com/daggeryu/DELL-inspiron-5488/blob/master/images/sussess.png)
 
 7：输入 setup_var 0x8E5 0x2 会车；
