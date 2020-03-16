@@ -46,6 +46,9 @@ DELL-Vostro_5481_5581。
 详见[network_card](https://github.com/daggeryu/DELL-inspiron-5488/blob/master/network_card.md)
 ## 更新日志
 详见[Update_log](https://github.com/daggeryu/DELL-inspiron-5488/blob/master/Update_log.md)
+## 安装教程
+详见[安装教程](https://www.bilibili.com/read/cv4779437)  
+
 ## 致谢
 
 - [RehabMan](https://github.com/RehabMan) 提供的   [VoodooPS2Controller](https://github.com/RehabMan/OS-X-Voodoo-PS2-Controller)等驱动。    
