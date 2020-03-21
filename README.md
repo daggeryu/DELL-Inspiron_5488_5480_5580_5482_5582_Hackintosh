@@ -19,7 +19,7 @@ DELL-Vostro_5481_5581。
 1：指纹 (应该无解)。  
 ## 正常功能：
 1：显卡  
-2：声卡(耳麦可使用，插入耳机弹出提示框选择)  
+2：声卡(耳麦可使用，插入耳机弹出提示框选择,需要使用耳麦青岛群里下载耳麦版本)  
 2：hdmi输出  
 3：type-c（全部功能正常）  
 4：网卡（有线网卡正常，无线网卡无解，换为BCM9460cs2免驱。）  
@@ -39,7 +39,7 @@ DELL-Vostro_5481_5581。
 4：安装原版完成后，提示未能完成安装。不用管他直接点重启即可（Restart），其实已经安装成功。目前原因未知，看群里部分戴尔机友有遇到此问题。  
 5：安装好后画无法使用触摸板，或者升级后触控板无法使用。你需要在每次更新系统后重建缓存。运行 `Kext Utility.app` 或者在 `终端.app` 输入 `sudo kextcache -i /`，然后重启。  
 6：快捷关闭触摸板，打开设置-辅助功能-鼠标与触摸板：启用鼠标键，点一下后面的选项勾选“按下Option键五次来开关鼠标键”。后就可以通过按五次Option键快捷关闭触摸板了。  
-7：耳机自动切换：终端运行 ComboJack_Installer/install.sh，重启，插入耳机的时候，会弹出对话框询问你插入的是耳机还是耳塞（10.15请先解锁sle权限在执行。）  
+7：耳机插上没有声音。请打开ALCPlugFix执行[install双击自动安装.command](https://github.com/daggeryu/DELL-inspiron-5488/blob/master/ALCPlugFix/install双击自动安装.command)（10.15请先解锁sle权限在执行。） 
 8:由于macOS 10.15 锁住了S/L/E的修改权限，因此在修改kext前要使用终端先解锁S/L/E权限，打开终端输入一下命令：sudo mount -uw /& killall Finder  
 9：使用OC引导请使用SHEll解锁CFG(详见:[解锁CFG & 修改DVMT](https://github.com/daggeryu/DELL-inspiron-5488/blob/master/UnlockCFGandChangeDVMT.md))。  
 ## 原装卡更换图解
