@@ -33,7 +33,7 @@
 			<key>IOProbeScore</key>
 			<integer>5000</integer>
 			<key>IOProviderClass</key>
-			<string>AppleIntelCNLUSBXHCI</string>
+			<string>AppleUSBXHCIPCI</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
 				<key>kUSBSleepPortCurrentLimit</key>
@@ -80,7 +80,7 @@
 					<key>HS04</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>9</integer>
+						<integer>0</integer>
 						<key>port</key>
 						<data>
 						BAAAAA==
